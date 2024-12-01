@@ -31,7 +31,4 @@ jobs:
             -Dsonar.organization=priyanshi58 \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
-            -Dsonar.sources=. \
-            -Dsonar.python.version=3.8 \
-            -Dsonar.exclusions=**/__pycache__/**,**/*.pyc \
-            -Dsonar.python.coverage.reportPaths=coverage.xml
+      
